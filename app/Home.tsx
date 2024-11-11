@@ -13,11 +13,13 @@ const Home = () => {
     };
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center">
-    <spline-viewer url="https://prod.spline.design/g6YQoo2faLb6jSb8/scene.splinecode"></spline-viewer>
+    <div className="flex flex-col items-center justify-center h-screen">
+  <spline-viewer 
+    url="https://prod.spline.design/g6YQoo2faLb6jSb8/scene.splinecode" 
+    className="w-full h-full sm:h-screen"
+  ></spline-viewer>
+</div>
 
-
-    </div>
   );
 };
 
